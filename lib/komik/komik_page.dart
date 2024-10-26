@@ -11,13 +11,17 @@ class KomikPage extends StatefulWidget {
 class _KomikPageState extends State<KomikPage> {
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(builder: (BuildContext context, BoxConstraints constraints) {
+    return LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints constraints) {
       return Scaffold(
           appBar: AppBar(
               foregroundColor: Colors.white,
               title: const Text(
-                "Komik",
-                style: TextStyle(fontFamily: 'Avenir', fontWeight: FontWeight.w800, color: Colors.white),
+                "KOMIK",
+                style: TextStyle(
+                    fontFamily: 'Avenir',
+                    fontWeight: FontWeight.w800,
+                    color: Colors.white),
               ),
               centerTitle: true,
               backgroundColor: Colors.red),
